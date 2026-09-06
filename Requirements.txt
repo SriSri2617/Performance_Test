@@ -1,0 +1,28 @@
+pytest
+pytest-benchmark
+
+
+1. Time complexity of - insertion_sort
+
+    - The algorithm builds a new list (result) and inserts each element into its correct position.
+    - For each element in the input list (n elements):
+        - In the worst case, it scans the entire result list (which grows from 0 → n)
+        - So the inner loop runs up to n times for each of the n items
+
+    - Therefore: Time complexity: O(n²)
+        - (Quadratic time — typical for insertion sort)
+
+    This matches standard insertion‑sort complexity from algorithm literature
+
+
+2. Time complexity of - merge sort
+
+    - Merge Sort
+        - Splits the list into halves → log n levels
+        - Each level merges all elements → n work
+        - Total: O(n log n)
+
+    - merge
+        -   Merging two sorted lists takes O(n)
+
+    - complete algorithm is - Time complexity: O(n log n)
