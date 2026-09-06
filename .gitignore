@@ -15,3 +15,6 @@ env/
 
 # Ignore inner repo folder if still present
 Performance_Test/.git/
+
+# Pytest cache
+.pytest_cache/
