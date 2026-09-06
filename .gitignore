@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE folders
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+
+# Virtual environments
+venv/
+env/
+
+# Ignore inner repo folder if still present
+Performance_Test/.git/
